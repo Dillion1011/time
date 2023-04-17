@@ -1,0 +1,157 @@
+*{
+    margin:0px;
+    padding:0px;
+    box-sizing: border-box;
+}
+body{
+    width:100vw;
+    height:auto;
+    background-color: #0d1323;
+    color:white;
+}
+.container{
+    width:80vw;
+    height:60vh;
+    position:absolute;
+    top:20vh;
+    left:10vw;
+    display:flex;
+}
+
+.profile{
+    background-color: #5746ea;
+    width:200px;
+    height: 40vh;
+    padding:20px;
+    border-radius:10px;
+    z-index: 1;
+}
+.small{
+    padding:10px;
+}
+.small .name{
+    font-size: 30px;
+}
+.act{
+    background-color: #1d204b;
+    padding:20px 5px;
+    border-radius: 10px;
+    position: absolute;
+    width:200px;
+    height: 60vh;
+}
+.act ul{
+    position: absolute;
+    bottom: 20px;
+}
+.act ul li{
+    list-style-type: none;
+    padding:5px;
+}
+.img img{
+    width:50px
+}
+
+.boxe{
+    width:220px;
+    height:22vh;
+    background-color: #1d204b;
+    margin:0px 10px 10px 10px;
+    position:relative;
+    top: 30px;
+    border-radius: 10px;
+    padding: 10px;
+}
+.box{
+    width:220px;
+    position: absolute;
+    margin:0px 10px 10px 10px;
+    z-index: -1;
+    border-radius:10px;
+}
+.box img{
+    position:relative;
+     left:120px;
+}
+.six{
+    display: flex;
+    
+}
+.three{
+    margin:20px;
+}
+.together{
+   display:flex;
+   flex-direction: column;
+}
+.worK{
+    display:flex;
+}
+.work img{
+    position: relative;
+    left:120px;
+}
+.time{
+    font-size: 45px;
+}
+.pro{
+    display: none;
+}
+.ac{
+    display: none;
+}
+
+@media screen and (max-width:1300px) {
+    .container{
+        width: 80vw;
+        height:auto;
+         display: block;
+    }
+  
+    .profile{
+      display:none;
+    }
+    .act{
+      display:none
+    }
+    .act ul{
+        display:flex;
+        color: rgba(255, 255, 255, 0.507);
+    }
+    
+    .together{
+       justify-content: center;
+       align-items: center;
+    }
+    .six{
+        display:flex;
+        flex-direction: column;
+    }
+    .pro{
+        
+        background-color: #5746ea;
+        width:200px;
+        height: auto;
+        padding:20px;
+        border-radius:10px;
+        z-index: 1;
+        display:flex;
+    }
+    .ac{
+        display: block;
+        background-color: #1d204b;
+        padding:20px 5px;
+        border-radius: 10px;
+        width:200px;
+        height: 60px;
+    }
+    .ac ul {
+        display: flex;
+
+    }
+   .ac ul li{
+    list-style-type: none;
+    padding:5px;
+   } 
+    
+}
